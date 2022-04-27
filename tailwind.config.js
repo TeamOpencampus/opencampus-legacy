@@ -7,5 +7,7 @@ module.exports = {
       serif: ['Lora', 'serif'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 };
