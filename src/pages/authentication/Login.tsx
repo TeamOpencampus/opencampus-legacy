@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Location, useLocation, useNavigate } from 'react-router-dom';
+import { Location, useLocation, useNavigate, Link } from 'react-router-dom';
 import { useRecoilValue } from 'recoil';
 import { useUserActions } from '../../_actions';
 import { authState } from '../../_state/AuthState';
@@ -57,6 +57,11 @@ export function LoginPage() {
                 />
               </div>
             </div>
+            
+            {/* are you forgot password babygirl? */}
+            <p className="text-sm text-left text-blue-800">
+                <Link to="/reset-password">Forgot Password?</Link>
+            </p>
 
             {/* sign in button */}
             <button type="submit" className="block w-full px-5 py-3 text-sm font-medium text-white bg-blue-800 rounded-lg">
@@ -65,7 +70,7 @@ export function LoginPage() {
 
             <p className="text-sm text-center text-gray-500">
               No account?
-              <a className="underline text-blue-800" href=""> Sign up</a>
+              <Link to="/signup" className="underline text-blue-800"> Sign up</Link>
             </p>
           </form>
         </div>
