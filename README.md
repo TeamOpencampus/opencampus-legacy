@@ -7,3 +7,7 @@ A campus training and hiring automation platform.
 - Prerequiste: Node 14.xx or later, Yarn package manager
 - Install dependencies: `yarn install`
 - Start development server: `yarn dev`
+
+## Making Changes
+
+- Before committing any code, always run `yarn format`.
