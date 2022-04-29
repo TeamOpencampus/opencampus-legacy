@@ -1,5 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
-import { LoginPage, SignupPage } from './pages/authentication';
+import {
+  LoginPage,
+  ResetPage,
+  ResetPageAction,
+  SignupPage,
+  VerifyPage,
+} from './pages/authentication';
 import {
   DashboardWrapper,
   DiscoverPage,
@@ -19,6 +25,11 @@ function App() {
       </Route>
       <Route path='login' element={<LoginPage />} />
       <Route path='signup' element={<SignupPage />} />
+      <Route path='reset-password'>
+        <Route index element={<ResetPage />} />
+        <Route path=':token' element={<ResetPageAction />} />
+      </Route>
+      <Route path='verify-email' element={<VerifyPage />} />
     </Routes>
   );
 }
