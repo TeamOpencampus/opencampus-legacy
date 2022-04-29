@@ -70,20 +70,8 @@ export function SignupPage() {
                 />
               </div>
             </div>
-
-            <div>
-              <label className='text-sm font-medium'>Confirm Password</label>
-
-              <div className='relative mt-1'>
-                <input
-                  type='password'
-                  id='password'
-                  className='w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm'
-                  placeholder='Enter Password Again'
-                />
-              </div>
-            </div>
-
+            
+            {/* checkbox */}
             <div className='flex items-start mb-6'>
               <div className='flex items-center h-5'>
                 <input
