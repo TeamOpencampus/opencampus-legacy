@@ -22,31 +22,31 @@ export function SignupPage() {
             </p>
             {/* write your name here, don't be shy */}
             <div className='relative mt-1'>
-              <label className='text-sm font-medium'>First Name</label>
+              <label className='text-sm font-medium' htmlFor='firstname'>First Name</label>
               <div className='relative mt-1'>
                 <input
                   type='text'
                   id='firstname'
                   className='w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm'
-                  placeholder='Enter First Name'
+                  placeholder='Enter first name'
                 />
               </div>
             </div>
             <div>
-              <label className='text-sm font-medium'>Last Name</label>
+              <label className='text-sm font-medium' htmlFor='lastname'>Last Name</label>
               <div className='relative mt-1'>
                 <input
                   type='text'
                   id='lastname'
                   className='w-full p-4 pr-12  text-sm border-gray-200 rounded-lg shadow-sm'
-                  placeholder='Enter Last Name'
+                  placeholder='Enter last name'
                 />
               </div>
             </div>
 
             {/* email */}
             <div>
-              <label className='text-sm font-medium'>Email</label>
+              <label className='text-sm font-medium' htmlFor='email'>Email</label>
               <div className='relative mt-1'>
                 <input
                   type='email'
@@ -59,7 +59,7 @@ export function SignupPage() {
 
             {/* password */}
             <div>
-              <label className='text-sm font-medium'>Password</label>
+              <label className='text-sm font-medium' htmlFor='password'>Password</label>
 
               <div className='relative mt-1'>
                 <input
