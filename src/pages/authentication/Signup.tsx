@@ -22,7 +22,9 @@ export function SignupPage() {
             </p>
             {/* write your name here, don't be shy */}
             <div className='relative mt-1'>
-              <label className='text-sm font-medium' htmlFor='firstname'>First Name</label>
+              <label className='text-sm font-medium' htmlFor='firstname'>
+                First Name
+              </label>
               <div className='relative mt-1'>
                 <input
                   type='text'
@@ -33,7 +35,9 @@ export function SignupPage() {
               </div>
             </div>
             <div>
-              <label className='text-sm font-medium' htmlFor='lastname'>Last Name</label>
+              <label className='text-sm font-medium' htmlFor='lastname'>
+                Last Name
+              </label>
               <div className='relative mt-1'>
                 <input
                   type='text'
@@ -46,7 +50,9 @@ export function SignupPage() {
 
             {/* email */}
             <div>
-              <label className='text-sm font-medium' htmlFor='email'>Email</label>
+              <label className='text-sm font-medium' htmlFor='email'>
+                Email
+              </label>
               <div className='relative mt-1'>
                 <input
                   type='email'
@@ -59,7 +65,9 @@ export function SignupPage() {
 
             {/* password */}
             <div>
-              <label className='text-sm font-medium' htmlFor='password'>Password</label>
+              <label className='text-sm font-medium' htmlFor='password'>
+                Password
+              </label>
 
               <div className='relative mt-1'>
                 <input
@@ -70,7 +78,7 @@ export function SignupPage() {
                 />
               </div>
             </div>
-            
+
             {/* checkbox */}
             <div className='flex items-start mb-6'>
               <div className='flex items-center h-5'>
